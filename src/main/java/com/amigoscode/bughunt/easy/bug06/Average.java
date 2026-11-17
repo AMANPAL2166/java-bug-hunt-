@@ -3,6 +3,7 @@ package com.amigoscode.bughunt.easy.bug06;
 public class Average {
 
     public double average(int a, int b, int c) {
-        return a + b + c / 3;
+        //int sum = a + b+ c;
+        return( (double)(a+b+c))/3;
     }
 }
