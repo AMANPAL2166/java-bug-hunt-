@@ -3,10 +3,13 @@ package com.amigoscode.bughunt.easy.bug05;
 public class Factorial {
 
     public long factorial(int n) {
-        int result = 1;
-        for (int i = 2; i <= n; i++) {
-            result *= i;
+        if(n <2){
+            return n;
         }
-        return result;
+        long fact = 1;
+        for(int i = 2;i<=n;i++){
+            fact *= i;
+        }
+        return fact;
     }
 }
